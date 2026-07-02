@@ -1,5 +1,5 @@
 """
-Distance-d repetition code — the 1D warm-up decoder.
+Distance-d repetition code the 1D warm-up decoder.
 
 The repetition code protects against bit flips only. Its d-1 parity checks
 compare neighbouring bits; a bit-flip chain lights the two checks at its ends,
@@ -8,7 +8,7 @@ walk left to right and, whenever the running parity is odd, flip the next bit.
 A logical failure occurs when the residual flips more than half the register.
 
 Under the code-capacity (perfect-measurement) model the crossing sits at
-p = 0.5, the known repetition-code threshold — a clean sanity check that the
+p = 0.5, the known repetition-code threshold a clean sanity check that the
 Monte Carlo harness and logical bookkeeping are correct before trusting the
 2D surface-code numbers.
 """
